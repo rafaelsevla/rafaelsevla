@@ -1,16 +1,13 @@
-### Hi there 👋
+## Hi, I'm Rafael 👋🏻
 
-<!--
-**rafaelsevla/rafaelsevla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```diff
+@@ Back-End Developer (Ruby on Rails) @@
++ Living in Araraquara, São Paulo – Brazil 🇧🇷
++ {{AGE}} years old
++ 7+ years working in backend development
++ Working with Ruby, Python, Node.js, React, React Native
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🎮 Interests
+Indie Games
+Boardgames
+Theater and Improvisation 🎭
