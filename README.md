@@ -5,9 +5,7 @@
 + Living in Araraquara, São Paulo – Brazil 🇧🇷
 + {{AGE}} years old
 + 7+ years working in backend development
-+ Working with Ruby, Python, Node.js, React, React Native
++ Working with Ruby on Rails, Elixir
+```
 
-🎮 Interests
-Indie Games
-Boardgames
-Theater and Improvisation 🎭
+<div align="left"> <img src="https://skillicons.dev/icons?i=ruby,rails,elixir,py,nodejs,ts,aws,gcp,docker&perline=15" /> </div>
