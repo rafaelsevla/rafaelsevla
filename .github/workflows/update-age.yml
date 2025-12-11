@@ -1,0 +1,35 @@
+name: Update Age Daily
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # roda todo dia às 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-age:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Calculate age
+        id: calc
+        run: |
+          BIRTHDATE="1998-06-18"
+          TODAY=$(date +%Y-%m-%d)
+          AGE=$(($(date -d "$TODAY" +%Y) - $(date -d "$BIRTHDATE" +%Y)))
+          if [ "$(date -d "$TODAY" +%m%d)" -lt "$(date -d "$BIRTHDATE" +%m%d)" ]; then AGE=$((AGE - 1)); fi
+          echo "age=$AGE" >> $GITHUB_OUTPUT
+
+      - name: Update README
+        run: |
+          sed -i "s/{{AGE}}.*/${{ steps.calc.outputs.age }} years old/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto-update age" || echo "No changes to commit"
+          git push
