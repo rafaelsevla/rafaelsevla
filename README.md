@@ -8,7 +8,7 @@
 + Working with Ruby on Rails, Elixir
 ```
 
-<div align="left"> <img src="https://skillicons.dev/icons?i=ruby,rails,elixir,py,nodejs,ts,aws,gcp,docker&perline=15" /> </div>
+<div align="left"> <img src="https://skillicons.dev/icons?i=ruby,rails,py,nodejs,ts,elixir,aws,gcp,docker&perline=15" /> </div>
 
 ### My stats 📊
 
