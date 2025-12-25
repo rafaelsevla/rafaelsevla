@@ -2,7 +2,7 @@ name: Update Age Daily
 
 on:
   schedule:
-    - cron: "20 3 * * *" # run every 05:00 UTC (02:20 Brasília)
+    - cron: "20 5 * * *" # run every 05:20 UTC (02:20 Brasília)
   workflow_dispatch:
 
 jobs:
