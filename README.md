@@ -10,19 +10,25 @@
 
 <div align="left"> <img src="https://skillicons.dev/icons?i=ruby,rails,elixir,py,nodejs,ts,aws,gcp,docker&perline=15" /> </div>
 
-## My stats 📊
+### My stats 📊
 
-<p>
-  <img
-    align="left"
-    alt="rafaelsevla's Github Stats"
-    height="200" 
-    src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark"
-  />
-  
-  <img
-    align="left"
-    alt="rafaelsevla's Github Stats"
-    height="200" 
-    src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true" />
+
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <picture>
+    <img
+      align="left"
+      alt="rafaelsevla's Github Stats"
+      height="200px" 
+      src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark"
+    />
+  </picture>
+
+  <picture>
+    <img
+      align="left"
+      alt="rafaelsevla's Github Stats"
+      height="200px" 
+      src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true" />
+  </picture>
+</div>
 </p>
