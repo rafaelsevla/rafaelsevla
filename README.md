@@ -9,3 +9,9 @@
 ```
 
 <div align="left"> <img src="https://skillicons.dev/icons?i=ruby,rails,elixir,py,nodejs,ts,aws,gcp,docker&perline=15" /> </div>
+
+## My stats 📊
+
+<img align="left" alt="rafaelsevla's Github Stats" src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark" />
+
+<img align="left" alt="rafaelsevla's Github Stats" src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10" />
