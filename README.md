@@ -4,7 +4,7 @@
 @@ Back-End Developer (Ruby on Rails) @@
 + Living in Araraquara, São Paulo – Brazil 🇧🇷
 + 27 years old
-+ {{CAREER_TIME}}+ years working in backend development
++ 7+ years working in backend development
 + Working with Ruby on Rails, Elixir
 ```
 
