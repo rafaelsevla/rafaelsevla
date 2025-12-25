@@ -13,6 +13,6 @@
 ### My stats 📊
 
 <p align="left">
-  <img src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark" height="195" />
-  <img src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true" height="195" />
+  <img src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark" height="190" />
+  <img src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true" height="190" />
 </p>
