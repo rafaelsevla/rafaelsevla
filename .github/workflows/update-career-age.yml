@@ -2,7 +2,7 @@ name: Update Age Daily
 
 on:
   schedule:
-    - cron: "0 6 * * *" # run every 06:00 UTC (03:00 Brasília)
+    - cron: "20 3 * * *" # run every 05:00 UTC (02:20 Brasília)
   workflow_dispatch:
 
 jobs:
@@ -16,15 +16,15 @@ jobs:
       - name: Calculate age
         id: calc
         run: |
-          BIRTHDATE="1998-06-18"
+          CAREER_START_DATE="2018-08-13"
           TODAY=$(date +%Y-%m-%d)
-          AGE=$(($(date -d "$TODAY" +%Y) - $(date -d "$BIRTHDATE" +%Y)))
-          if [ "$(date -d "$TODAY" +%m%d)" -lt "$(date -d "$BIRTHDATE" +%m%d)" ]; then AGE=$((AGE - 1)); fi
-          echo "age=$AGE" >> $GITHUB_OUTPUT
+          CAREER_TIME=$(($(date -d "$TODAY" +%Y) - $(date -d "$CAREER_START_DATE" +%Y)))
+          if [ "$(date -d "$TODAY" +%m%d)" -lt "$(date -d "$CAREER_START_DATE" +%m%d)" ]; then CAREER_TIME=$((CAREER_TIME - 1)); fi
+          echo "career_time=$CAREER_TIME" >> $GITHUB_OUTPUT
 
       - name: Update README
         run: |
-          sed -i "s|{{AGE}}|${{ steps.calc.outputs.age }}|g" README.md
+          sed -i "s|{{CAREER_TIME}}|${{ steps.calc.outputs.career_time }}|g" README.md
 
       - name: Commit changes
         run: |
