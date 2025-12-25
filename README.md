@@ -3,7 +3,7 @@
 ```diff
 @@ Back-End Developer (Ruby on Rails) @@
 + Living in Araraquara, São Paulo – Brazil 🇧🇷
-+ {{AGE}} years old
++ 27 years old
 + {{CAREER_TIME}}+ years working in backend development
 + Working with Ruby on Rails, Elixir
 ```
