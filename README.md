@@ -14,5 +14,5 @@
 
 <p align="left">
   <img align="top" src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark&count_private=true" height="190" />
-  <img align="top" src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true" height="190" />
+  <img align="top" src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true&count_private=true" height="190" />
 </p>
