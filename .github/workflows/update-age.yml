@@ -2,7 +2,7 @@ name: Update Age Daily
 
 on:
   schedule:
-    - cron: "0 3 * * *" # roda todo dia às 03:00 UTC
+    - cron: "50 4 * * *" # run every 04:50 UTC (01:50 Brasília)
   workflow_dispatch:
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s/{{AGE}}.*/${{ steps.calc.outputs.age }} years old/" README.md
+          sed -i "s|{{AGE}}|${{ steps.calc.outputs.age }}|g" README.md
 
       - name: Commit changes
         run: |
