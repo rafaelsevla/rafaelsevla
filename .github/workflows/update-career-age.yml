@@ -1,4 +1,4 @@
-name: Update Age Daily
+name: Update Career Age Daily
 
 on:
   schedule:
