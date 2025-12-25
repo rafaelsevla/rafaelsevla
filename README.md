@@ -14,6 +14,8 @@
 
 ---
 
+---
+
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
   <picture>
@@ -29,6 +31,13 @@
   </picture>
 
 </div>
+
+<div align="center">
+  <br>
+  <img src="github-readme-stats-v2-six.vercel.app/?user=rafaelsevla&theme=transparent&ring=00bfff&fire=00bfff&currStreakLabel=00bfff" alt="GitHub Streak" height="200px"/>
+</div>
+
+---
 
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
