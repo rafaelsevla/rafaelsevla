@@ -12,21 +12,7 @@
 
 ### My stats 📊
 
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-  <tr style="border:none;padding:0 8px;">
-    <td style="border:none;padding:0 8px;">
-      <img
-        alt="rafaelsevla's Github Stats"
-        height="200"
-        src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark"
-      />
-    </td>
-    <td style="border:none;padding:0 8px;">
-      <img
-        alt="rafaelsevla's Github Top Languages"
-        height="200"
-        src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true"
-      />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img alt="Stats" height="200" src="https://github-readme-stats-v2-six.vercel.app/api?username=rafaelsevla&show_icons=true&hide_border=true&theme=dark" />
+  <img alt="Top Langs" height="200" src="https://github-readme-stats-v2-six.vercel.app/api/top-langs/?username=rafaelsevla&theme=dark&layout=compact&custom_title=Tech&langs_count=10&hide_border=true" />
+</p>
